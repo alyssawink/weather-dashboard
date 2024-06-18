@@ -1,6 +1,4 @@
 body {
-    background-size: cover;
-    background-image: url("../images/Weather-Desktop-Image.jpg");
    padding: 20px;
    font-family: 'Times New Roman', Times, serif;
   }
@@ -9,6 +7,10 @@ body {
     background-color: whitesmoke;
     flex-wrap: wrap;
   }
+
+.jumbotron {
+    background-color:#2058b4 ;
+}
 
 .form-control {
     background-color: #ecf0f2;
@@ -34,7 +36,7 @@ h6 {
 }
 
 .day-1, .day-2, .day-3, .day-4, .day-5 {
-    background-color: #323d4f;
+    background-color: #2058b4;
     color: White;
     max-width: 100%;
     margin: 10px;
@@ -52,6 +54,6 @@ h6 {
 }
 
 .selected :hover {
-  background-color: #323d4f;
+  background-color: #2058b4;
     color: white;
 }
